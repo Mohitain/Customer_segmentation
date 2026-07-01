@@ -1,0 +1,14 @@
+Business Scenario
+
+An e-commerce company has grown rapidly but knows very little about its customers.
+
+Management wants answers to questions like:
+
+-Who are the highest-value customers?
+-Which customers are likely to stop purchasing?
+-Which regions generate the most revenue?
+-Which products perform best?
+-Which customers should receive loyalty rewards?
+-Which customers should receive discount campaigns?
+
+Your role is to analyze the transactional data and provide actionable insights.

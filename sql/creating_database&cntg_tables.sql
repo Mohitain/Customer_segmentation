@@ -1,4 +1,12 @@
 SELECT * FROM ecommerce.customers;
+SELECT * FROM ecommerce.products;
+SELECT * FROM ecommerce.sellers;
+SELECT * FROM ecommerce.orders;
+SELECT * FROM ecommerce.order_items;
+SELECT * FROM ecommerce.payments;
+SELECT * FROM ecommerce.reviews;
+SELECT * FROM ecommerce.geolocation;
+SELECT * FROM ecommerce.category_translation;
 
 -- Customers
 
@@ -138,6 +146,9 @@ CREATE TABLE ecommerce.geolocation (
     geolocation_city VARCHAR(50),
     geolocation_state VARCHAR(10)
 );
+
+ALTER TABLE ecommerce.geolocation
+DROP CONSTRAINT geolocation_pkey;
 
 -- Category Translation
 
